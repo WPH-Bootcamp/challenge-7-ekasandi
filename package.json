@@ -1,18 +1,17 @@
 {
   "name": "todo-app-typescript",
   "version": "1.0.0",
-  "description": "Command-line To-Do List application using TypeScript",
+  "description": "Assignment 7 - Todo App with TypeScript",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "npm run build && npm start"
+    "dev": "tsc && node dist/index.js"
   },
-  "keywords": ["typescript", "todo", "cli"],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.0.0"
   }
 }
